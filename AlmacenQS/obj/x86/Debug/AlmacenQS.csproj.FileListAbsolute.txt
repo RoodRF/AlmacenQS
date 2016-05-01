@@ -1,0 +1,14 @@
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\bin\Debug\AlmacenQS.exe
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\bin\Debug\AlmacenQS.pdb
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.frmLogin.resources
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.Properties.Resources.resources
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.csproj.GenerateResource.Cache
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.exe
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.pdb
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.csprojResolveAssemblyReference.cache
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.frmMain.resources
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.frmAltaUsuarios.resources
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.frmArticulos.resources
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.frmAgregarArt.resources
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.frmEditar.resources
+E:\Dropbox\Escuela\IngRequerimientos\ProyectoQS\AlmacenQSys\AlmacenQS\AlmacenQS\obj\x86\Debug\AlmacenQS.frmModUser.resources
