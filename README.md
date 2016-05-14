@@ -1,3 +1,2 @@
 # AlmacenQS
-IngReq
-Hola XDD
+Proyecto de almacén para empresa X 
