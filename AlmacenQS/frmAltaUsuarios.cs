@@ -12,7 +12,7 @@ namespace AlmacenQS
     public partial class frmAltaUsuarios : Form
     {
 
-
+        Conexion con = new Conexion();
         public frmAltaUsuarios()
         {
             InitializeComponent();
@@ -23,13 +23,32 @@ namespace AlmacenQS
         {
             ValidaCampos valida = new ValidaCampos();
             //frmAltaUsuarios usuarios = new frmAltaUsuarios();
+            string nombre;
+            string correo;
+            string pass;
+            string confPass;
+            int tipo = 1;
+            nombre = txtNombre.Text.ToString();
+            correo = txtCorreo.Text.ToString();
+            pass = txtPass.Text.ToString();
+            confPass = txtConfirnPass.Text.ToString();
+            if (rbAdministrador.Checked)
+            {
+                tipo = 1;
+            }
+            else {
+                if (rbNormal.Checked) {
+                    tipo = 2;
+                }
+            }
             if (!valida.campoVacio(gbUsuariosSistema))
             {
-                if (valida.Passwords(txtPass, txtConfirnPass))
+                if (valida.Passwords(pass, confPass))
                 {
                     //usuarios.Close();
                     this.Close();
-                    MessageBox.Show("Usuario guardado correctamente", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    con.AgregarUsuario(nombre,correo,pass,tipo);
+                    //MessageBox.Show("Usuario guardado correctamente", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     
                 }
                 else
@@ -43,10 +62,9 @@ namespace AlmacenQS
             }
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
-        {
+     
 
-        }
+      
 
     }
 }

@@ -38,10 +38,14 @@
             this.txtConfirnPass = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.gbUsuariosSistema = new System.Windows.Forms.GroupBox();
+            this.gbTipoUsuario = new System.Windows.Forms.GroupBox();
+            this.rbNormal = new System.Windows.Forms.RadioButton();
+            this.rbAdministrador = new System.Windows.Forms.RadioButton();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gbUsuariosSistema.SuspendLayout();
+            this.gbTipoUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -124,6 +128,7 @@
             // gbUsuariosSistema
             // 
             this.gbUsuariosSistema.BackColor = System.Drawing.Color.Transparent;
+            this.gbUsuariosSistema.Controls.Add(this.gbTipoUsuario);
             this.gbUsuariosSistema.Controls.Add(this.txtConfirnPass);
             this.gbUsuariosSistema.Controls.Add(this.txtPass);
             this.gbUsuariosSistema.Controls.Add(this.label2);
@@ -134,24 +139,56 @@
             this.gbUsuariosSistema.Controls.Add(this.label5);
             this.gbUsuariosSistema.Location = new System.Drawing.Point(12, 12);
             this.gbUsuariosSistema.Name = "gbUsuariosSistema";
-            this.gbUsuariosSistema.Size = new System.Drawing.Size(348, 174);
+            this.gbUsuariosSistema.Size = new System.Drawing.Size(348, 225);
             this.gbUsuariosSistema.TabIndex = 9;
             this.gbUsuariosSistema.TabStop = false;
             this.gbUsuariosSistema.Text = "Usuarios del sistema";
             // 
+            // gbTipoUsuario
+            // 
+            this.gbTipoUsuario.Controls.Add(this.rbNormal);
+            this.gbTipoUsuario.Controls.Add(this.rbAdministrador);
+            this.gbTipoUsuario.Location = new System.Drawing.Point(11, 166);
+            this.gbTipoUsuario.Name = "gbTipoUsuario";
+            this.gbTipoUsuario.Size = new System.Drawing.Size(228, 44);
+            this.gbTipoUsuario.TabIndex = 5;
+            this.gbTipoUsuario.TabStop = false;
+            this.gbTipoUsuario.Text = "Tipo Usuario";
+            // 
+            // rbNormal
+            // 
+            this.rbNormal.AutoSize = true;
+            this.rbNormal.Location = new System.Drawing.Point(127, 19);
+            this.rbNormal.Name = "rbNormal";
+            this.rbNormal.Size = new System.Drawing.Size(58, 17);
+            this.rbNormal.TabIndex = 1;
+            this.rbNormal.Text = "Normal";
+            this.rbNormal.UseVisualStyleBackColor = true;
+            // 
+            // rbAdministrador
+            // 
+            this.rbAdministrador.AutoSize = true;
+            this.rbAdministrador.Checked = true;
+            this.rbAdministrador.Location = new System.Drawing.Point(6, 19);
+            this.rbAdministrador.Name = "rbAdministrador";
+            this.rbAdministrador.Size = new System.Drawing.Size(88, 17);
+            this.rbAdministrador.TabIndex = 0;
+            this.rbAdministrador.TabStop = true;
+            this.rbAdministrador.Text = "Administrador";
+            this.rbAdministrador.UseVisualStyleBackColor = true;
+            // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(107, 192);
+            this.btnCancelar.Location = new System.Drawing.Point(107, 243);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(134, 33);
             this.btnCancelar.TabIndex = 10;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(256, 192);
+            this.btnGuardar.Location = new System.Drawing.Point(256, 243);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(134, 33);
             this.btnGuardar.TabIndex = 5;
@@ -174,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 237);
+            this.ClientSize = new System.Drawing.Size(497, 288);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.btnCancelar);
@@ -184,6 +221,8 @@
             this.Text = "AltaUsuarios";
             this.gbUsuariosSistema.ResumeLayout(false);
             this.gbUsuariosSistema.PerformLayout();
+            this.gbTipoUsuario.ResumeLayout(false);
+            this.gbTipoUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -203,5 +242,8 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.GroupBox gbTipoUsuario;
+        private System.Windows.Forms.RadioButton rbNormal;
+        private System.Windows.Forms.RadioButton rbAdministrador;
     }
 }

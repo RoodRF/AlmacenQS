@@ -58,5 +58,10 @@ namespace AlmacenQS
         {
             this.Close();
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            Conexion con = new Conexion();
+        }
     }
 }

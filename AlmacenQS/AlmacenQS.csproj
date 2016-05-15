@@ -54,6 +54,7 @@
     <Compile Include="app\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexion.cs" />
     <Compile Include="frmAgregarArt.cs">
       <SubType>Form</SubType>
     </Compile>
